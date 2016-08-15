@@ -10,6 +10,7 @@
 		350AE6E91D6244F500C25671 /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350AE6E81D6244F500C25671 /* TabViewController.swift */; };
 		350AE6ED1D62453100C25671 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350AE6EC1D62453100C25671 /* PhotoViewController.swift */; };
 		350AE6EF1D62453800C25671 /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350AE6EE1D62453800C25671 /* VideoViewController.swift */; };
+		F056FC811D6259AE00C1BCFD /* Bua.mov in Resources */ = {isa = PBXBuildFile; fileRef = F056FC801D6259AE00C1BCFD /* Bua.mov */; };
 		F0F85B781D610553004759C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F85B771D610553004759C0 /* AppDelegate.swift */; };
 		F0F85B7D1D610553004759C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0F85B7B1D610553004759C0 /* Main.storyboard */; };
 		F0F85B7F1D610553004759C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0F85B7E1D610553004759C0 /* Assets.xcassets */; };
@@ -39,6 +40,7 @@
 		350AE6E81D6244F500C25671 /* TabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabViewController.swift; sourceTree = "<group>"; };
 		350AE6EC1D62453100C25671 /* PhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
 		350AE6EE1D62453800C25671 /* VideoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
+		F056FC801D6259AE00C1BCFD /* Bua.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; name = Bua.mov; path = "Papa's-50th/Assets.xcassets/Bua_Video.dataset/Bua.mov"; sourceTree = "<group>"; };
 		F0F85B741D610552004759C0 /* Papa's-50th.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Papa's-50th.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0F85B771D610553004759C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F0F85B7C1D610553004759C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 		F0F85B6B1D610552004759C0 = {
 			isa = PBXGroup;
 			children = (
+				F056FC801D6259AE00C1BCFD /* Bua.mov */,
 				F0F85B761D610552004759C0 /* Papa's-50th */,
 				F0F85B8B1D610553004759C0 /* Papa's-50thTests */,
 				F0F85B961D610553004759C0 /* Papa's-50thUITests */,
@@ -236,6 +239,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F056FC811D6259AE00C1BCFD /* Bua.mov in Resources */,
 				F0F85B821D610553004759C0 /* LaunchScreen.storyboard in Resources */,
 				F0F85B7F1D610553004759C0 /* Assets.xcassets in Resources */,
 				F0F85B7D1D610553004759C0 /* Main.storyboard in Resources */,

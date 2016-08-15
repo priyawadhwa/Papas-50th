@@ -34,16 +34,57 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DCQ-JY-9We">
+                                <rect key="frame" x="49" y="79" width="148" height="188"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="148" id="5T7-WT-15w"/>
+                                    <constraint firstAttribute="width" constant="90" id="Fx1-Tv-VSd"/>
+                                    <constraint firstAttribute="height" constant="106" id="I1h-IS-RZ0"/>
+                                    <constraint firstAttribute="width" constant="184" id="PId-a8-bTc"/>
+                                    <constraint firstAttribute="height" constant="242" id="ZiS-xg-saa"/>
+                                    <constraint firstAttribute="height" constant="188" id="bdb-Ly-bMx"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="Bua_Profile"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="Fx1-Tv-VSd"/>
+                                        <exclude reference="I1h-IS-RZ0"/>
+                                        <exclude reference="PId-a8-bTc"/>
+                                        <exclude reference="ZiS-xg-saa"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <action selector="pushButton1:" destination="eJQ-w4-NnC" eventType="touchUpInside" id="gsK-u6-KTD"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="DfD-kZ-ViK" firstAttribute="top" secondItem="DCQ-JY-9We" secondAttribute="bottom" constant="284" id="Hbr-su-2dV"/>
+                            <constraint firstItem="DCQ-JY-9We" firstAttribute="top" secondItem="lpX-e6-J61" secondAttribute="bottom" constant="8" id="JM1-pl-VXH"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="DCQ-JY-9We" secondAttribute="trailing" constant="383" id="JxS-cX-kTn"/>
+                            <constraint firstItem="DCQ-JY-9We" firstAttribute="top" secondItem="DD7-0H-YGQ" secondAttribute="bottom" constant="78" id="K0I-Pb-EdB"/>
+                            <constraint firstItem="DCQ-JY-9We" firstAttribute="top" secondItem="DD7-0H-YGQ" secondAttribute="bottom" constant="78" id="TNW-Fv-wcj"/>
                             <constraint firstItem="sCe-y0-nVG" firstAttribute="leading" secondItem="aas-eE-cIg" secondAttribute="leadingMargin" constant="-20" id="UMe-8X-Mze"/>
                             <constraint firstItem="lpX-e6-J61" firstAttribute="top" secondItem="DD7-0H-YGQ" secondAttribute="bottom" constant="30" id="Uyh-Pu-zXU"/>
+                            <constraint firstItem="DCQ-JY-9We" firstAttribute="leading" secondItem="aas-eE-cIg" secondAttribute="leadingMargin" constant="29" id="Yhp-Fx-dWJ"/>
+                            <constraint firstItem="DCQ-JY-9We" firstAttribute="leading" secondItem="aas-eE-cIg" secondAttribute="leadingMargin" constant="18" id="ddl-ro-FTo"/>
                             <constraint firstItem="lpX-e6-J61" firstAttribute="centerX" secondItem="sCe-y0-nVG" secondAttribute="centerX" id="hCa-tE-3pc"/>
                             <constraint firstItem="sCe-y0-nVG" firstAttribute="top" secondItem="DD7-0H-YGQ" secondAttribute="bottom" constant="-20" id="hKx-55-99a"/>
                             <constraint firstItem="DfD-kZ-ViK" firstAttribute="top" secondItem="sCe-y0-nVG" secondAttribute="bottom" constant="-49" id="kAE-Rg-M77"/>
                             <constraint firstAttribute="trailingMargin" secondItem="sCe-y0-nVG" secondAttribute="trailing" constant="-20" id="kbL-Je-C0R"/>
+                            <constraint firstItem="DCQ-JY-9We" firstAttribute="leading" secondItem="aas-eE-cIg" secondAttribute="leadingMargin" constant="18" id="nXV-nc-VmU"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="JxS-cX-kTn"/>
+                                <exclude reference="K0I-Pb-EdB"/>
+                                <exclude reference="TNW-Fv-wcj"/>
+                                <exclude reference="ddl-ro-FTo"/>
+                                <exclude reference="nXV-nc-VmU"/>
+                                <exclude reference="Hbr-su-2dV"/>
+                            </mask>
+                        </variation>
                     </view>
                     <tabBarItem key="tabBarItem" title="" image="Video" id="Hx4-20-hbn">
                         <userDefinedRuntimeAttributes>
@@ -52,11 +93,9 @@
                             </userDefinedRuntimeAttribute>
                         </userDefinedRuntimeAttributes>
                     </tabBarItem>
-                    <userDefinedRuntimeAttributes>
-                        <userDefinedRuntimeAttribute type="color" keyPath="tintColor">
-                            <color key="value" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                        </userDefinedRuntimeAttribute>
-                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <outlet property="button1" destination="DCQ-JY-9We" id="lEG-yp-CaB"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="moV-qu-QeI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -147,6 +186,7 @@
     </scenes>
     <resources>
         <image name="Background" width="375" height="667"/>
+        <image name="Bua_Profile" width="184" height="242"/>
         <image name="Photos" width="43" height="33"/>
         <image name="Video" width="45" height="29"/>
     </resources>
