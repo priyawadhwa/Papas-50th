@@ -22,10 +22,24 @@
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Videos" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lpX-e6-J61">
+                                <rect key="frame" x="231" y="50" width="139" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="2LG-lB-DBu"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="c0C-HL-iQK"/>
+                                    <constraint firstAttribute="width" constant="139" id="fcA-vK-3Oa"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="139" id="hkG-zj-evz"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="OriyaSangamMN-Bold" family="Oriya Sangam MN" pointSize="22"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="sCe-y0-nVG" firstAttribute="leading" secondItem="aas-eE-cIg" secondAttribute="leadingMargin" constant="-20" id="UMe-8X-Mze"/>
+                            <constraint firstItem="lpX-e6-J61" firstAttribute="top" secondItem="DD7-0H-YGQ" secondAttribute="bottom" constant="30" id="Uyh-Pu-zXU"/>
+                            <constraint firstItem="lpX-e6-J61" firstAttribute="centerX" secondItem="sCe-y0-nVG" secondAttribute="centerX" id="hCa-tE-3pc"/>
                             <constraint firstItem="sCe-y0-nVG" firstAttribute="top" secondItem="DD7-0H-YGQ" secondAttribute="bottom" constant="-20" id="hKx-55-99a"/>
                             <constraint firstItem="DfD-kZ-ViK" firstAttribute="top" secondItem="sCe-y0-nVG" secondAttribute="bottom" constant="-49" id="kAE-Rg-M77"/>
                             <constraint firstAttribute="trailingMargin" secondItem="sCe-y0-nVG" secondAttribute="trailing" constant="-20" id="kbL-Je-C0R"/>
@@ -61,17 +75,35 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background" translatesAutoresizingMaskIntoConstraints="NO" id="BSN-ZE-C0p">
-                                <rect key="frame" x="0.0" y="20" width="600" height="580"/>
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Photos" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hjX-bG-Ais">
+                                <rect key="frame" x="231" y="50" width="139" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="139" id="ThE-tQ-3R6"/>
+                                    <constraint firstAttribute="height" constant="21" id="gyZ-3C-FfQ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="OriyaSangamMN-Bold" family="Oriya Sangam MN" pointSize="22"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="sTN-Pg-zfm" firstAttribute="top" secondItem="BSN-ZE-C0p" secondAttribute="bottom" constant="-49" id="0Fl-bL-8Iw"/>
+                            <constraint firstItem="hjX-bG-Ais" firstAttribute="leading" secondItem="cJp-9c-pr4" secondAttribute="leadingMargin" constant="212" id="Dfe-LS-fJ3"/>
+                            <constraint firstItem="hjX-bG-Ais" firstAttribute="centerX" secondItem="BSN-ZE-C0p" secondAttribute="centerX" id="FBI-2n-0VX"/>
                             <constraint firstItem="BSN-ZE-C0p" firstAttribute="leading" secondItem="cJp-9c-pr4" secondAttribute="leadingMargin" constant="-20" id="G0P-m2-nXd"/>
-                            <constraint firstItem="BSN-ZE-C0p" firstAttribute="top" secondItem="E3d-sZ-Cnj" secondAttribute="bottom" id="IMB-Af-B7T"/>
+                            <constraint firstItem="BSN-ZE-C0p" firstAttribute="top" secondItem="E3d-sZ-Cnj" secondAttribute="bottom" constant="-20" id="IMB-Af-B7T"/>
+                            <constraint firstItem="hjX-bG-Ais" firstAttribute="top" secondItem="E3d-sZ-Cnj" secondAttribute="bottom" constant="30" id="ggo-ZZ-pxP"/>
                             <constraint firstAttribute="trailingMargin" secondItem="BSN-ZE-C0p" secondAttribute="trailing" constant="-20" id="xge-uk-BXa"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="Dfe-LS-fJ3"/>
+                            </mask>
+                        </variation>
                     </view>
                     <tabBarItem key="tabBarItem" title="" image="Photos" id="HHY-Tp-ZFk">
                         <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="0.0"/>
@@ -90,12 +122,12 @@
         <scene sceneID="MeR-y0-hGk">
             <objects>
                 <tabBarController id="Bfa-ST-pEB" customClass="TabViewController" customModule="Papa_s_50th" customModuleProvider="target" sceneMemberID="viewController">
-                    <tabBar key="tabBar" contentMode="scaleToFill" backgroundImage="Background" itemPositioning="centered" itemSpacing="45" itemWidth="45" id="qqd-It-WLk">
+                    <tabBar key="tabBar" opaque="NO" contentMode="scaleToFill" id="qqd-It-WLk">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                        <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                        <color key="barTintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.30588235294117649" green="0.37254901960784315" blue="0.45490196078431372" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="barTintColor" red="0.30588235289999999" green="0.37254901959999998" blue="0.4549019608" alpha="1" colorSpace="calibratedRGB"/>
                         <color key="selectedImageTintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <userDefinedRuntimeAttributes>
                             <userDefinedRuntimeAttribute type="color" keyPath="tintColor">
