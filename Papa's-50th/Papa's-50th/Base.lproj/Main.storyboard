@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Bfa-ST-pEB">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
@@ -7,35 +7,94 @@
     </dependencies>
     <scenes>
         <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <scene sceneID="XLk-Ns-GUk">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Papa_s_50th" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="eJQ-w4-NnC" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                        <viewControllerLayoutGuide type="top" id="DD7-0H-YGQ"/>
+                        <viewControllerLayoutGuide type="bottom" id="DfD-kZ-ViK"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                    <view key="view" contentMode="scaleToFill" id="aas-eE-cIg">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background" translatesAutoresizingMaskIntoConstraints="NO" id="smX-Tu-NGV">
-                                <rect key="frame" x="0.0" y="20" width="600" height="580"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background" translatesAutoresizingMaskIntoConstraints="NO" id="sCe-y0-nVG">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="smX-Tu-NGV" secondAttribute="bottom" id="6sY-7O-XF5"/>
-                            <constraint firstItem="smX-Tu-NGV" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="BxE-8B-3qo"/>
-                            <constraint firstItem="smX-Tu-NGV" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="F7u-dh-aMr"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="smX-Tu-NGV" secondAttribute="trailing" constant="-20" id="kJN-G4-o5b"/>
+                            <constraint firstItem="sCe-y0-nVG" firstAttribute="leading" secondItem="aas-eE-cIg" secondAttribute="leadingMargin" constant="-20" id="UMe-8X-Mze"/>
+                            <constraint firstItem="sCe-y0-nVG" firstAttribute="top" secondItem="DD7-0H-YGQ" secondAttribute="bottom" constant="-20" id="hKx-55-99a"/>
+                            <constraint firstItem="DfD-kZ-ViK" firstAttribute="top" secondItem="sCe-y0-nVG" secondAttribute="bottom" constant="-49" id="kAE-Rg-M77"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="sCe-y0-nVG" secondAttribute="trailing" constant="-20" id="kbL-Je-C0R"/>
                         </constraints>
                     </view>
+                    <tabBarItem key="tabBarItem" title="" image="Video" id="Hx4-20-hbn"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="moV-qu-QeI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="982" y="654"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="gOu-xG-SlO">
+            <objects>
+                <viewController id="edu-Qq-R5c" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="E3d-sZ-Cnj"/>
+                        <viewControllerLayoutGuide type="bottom" id="sTN-Pg-zfm"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="cJp-9c-pr4">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background" translatesAutoresizingMaskIntoConstraints="NO" id="BSN-ZE-C0p">
+                                <rect key="frame" x="0.0" y="20" width="600" height="580"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="sTN-Pg-zfm" firstAttribute="top" secondItem="BSN-ZE-C0p" secondAttribute="bottom" constant="-49" id="0Fl-bL-8Iw"/>
+                            <constraint firstItem="BSN-ZE-C0p" firstAttribute="leading" secondItem="cJp-9c-pr4" secondAttribute="leadingMargin" constant="-20" id="G0P-m2-nXd"/>
+                            <constraint firstItem="BSN-ZE-C0p" firstAttribute="top" secondItem="E3d-sZ-Cnj" secondAttribute="bottom" id="IMB-Af-B7T"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="BSN-ZE-C0p" secondAttribute="trailing" constant="-20" id="xge-uk-BXa"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="" image="Photos" id="HHY-Tp-ZFk">
+                        <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="0.0"/>
+                    </tabBarItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eyy-Ae-uMO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="982" y="-7"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="MeR-y0-hGk">
+            <objects>
+                <tabBarController id="Bfa-ST-pEB" customClass="TabBarController" customModule="Papa_s_50th" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" backgroundImage="Background" itemPositioning="centered" itemSpacing="45" itemWidth="45" id="qqd-It-WLk">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <color key="barTintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="selectedImageTintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="edu-Qq-R5c" kind="relationship" relationship="viewControllers" id="5l6-cF-wd8"/>
+                        <segue destination="eJQ-w4-NnC" kind="relationship" relationship="viewControllers" id="YsI-nM-cJo"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vP7-d2-8dt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="162" y="324"/>
         </scene>
     </scenes>
     <resources>
         <image name="Background" width="375" height="667"/>
+        <image name="Photos" width="43" height="33"/>
+        <image name="Video" width="45" height="29"/>
     </resources>
 </document>
