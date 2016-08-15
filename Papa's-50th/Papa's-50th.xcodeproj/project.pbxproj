@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		350AE6E91D6244F500C25671 /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350AE6E81D6244F500C25671 /* TabViewController.swift */; };
+		350AE6ED1D62453100C25671 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350AE6EC1D62453100C25671 /* PhotoViewController.swift */; };
+		350AE6EF1D62453800C25671 /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350AE6EE1D62453800C25671 /* VideoViewController.swift */; };
 		F0F85B781D610553004759C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F85B771D610553004759C0 /* AppDelegate.swift */; };
 		F0F85B7D1D610553004759C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0F85B7B1D610553004759C0 /* Main.storyboard */; };
 		F0F85B7F1D610553004759C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0F85B7E1D610553004759C0 /* Assets.xcassets */; };
@@ -33,6 +36,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		350AE6E81D6244F500C25671 /* TabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabViewController.swift; sourceTree = "<group>"; };
+		350AE6EC1D62453100C25671 /* PhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
+		350AE6EE1D62453800C25671 /* VideoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
 		F0F85B741D610552004759C0 /* Papa's-50th.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Papa's-50th.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0F85B771D610553004759C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F0F85B7C1D610553004759C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -100,6 +106,9 @@
 				F0F85B7E1D610553004759C0 /* Assets.xcassets */,
 				F0F85B801D610553004759C0 /* LaunchScreen.storyboard */,
 				F0F85B831D610553004759C0 /* Info.plist */,
+				350AE6E81D6244F500C25671 /* TabViewController.swift */,
+				350AE6EC1D62453100C25671 /* PhotoViewController.swift */,
+				350AE6EE1D62453800C25671 /* VideoViewController.swift */,
 			);
 			path = "Papa's-50th";
 			sourceTree = "<group>";
@@ -254,7 +263,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				350AE6E91D6244F500C25671 /* TabViewController.swift in Sources */,
 				F0F85B781D610553004759C0 /* AppDelegate.swift in Sources */,
+				350AE6EF1D62453800C25671 /* VideoViewController.swift in Sources */,
+				350AE6ED1D62453100C25671 /* PhotoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -487,6 +499,7 @@
 				F0F85B9E1D610553004759C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F0F85B9F1D610553004759C0 /* Build configuration list for PBXNativeTarget "Papa's-50thTests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +508,7 @@
 				F0F85BA11D610553004759C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F0F85BA21D610553004759C0 /* Build configuration list for PBXNativeTarget "Papa's-50thUITests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +517,7 @@
 				F0F85BA41D610553004759C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
