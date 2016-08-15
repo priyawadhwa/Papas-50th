@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Bfa-ST-pEB">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Bfa-ST-pEB">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Video View Controller-->
         <scene sceneID="XLk-Ns-GUk">
             <objects>
-                <viewController id="eJQ-w4-NnC" sceneMemberID="viewController">
+                <viewController id="eJQ-w4-NnC" customClass="VideoViewController" customModule="Papa_s_50th" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="DD7-0H-YGQ"/>
                         <viewControllerLayoutGuide type="bottom" id="DfD-kZ-ViK"/>
@@ -37,10 +37,10 @@
             </objects>
             <point key="canvasLocation" x="982" y="654"/>
         </scene>
-        <!--View Controller-->
+        <!--Photo View Controller-->
         <scene sceneID="gOu-xG-SlO">
             <objects>
-                <viewController id="edu-Qq-R5c" sceneMemberID="viewController">
+                <viewController id="edu-Qq-R5c" customClass="PhotoViewController" customModule="Papa_s_50th" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="E3d-sZ-Cnj"/>
                         <viewControllerLayoutGuide type="bottom" id="sTN-Pg-zfm"/>
@@ -70,10 +70,10 @@
             </objects>
             <point key="canvasLocation" x="982" y="-7"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--Tab View Controller-->
         <scene sceneID="MeR-y0-hGk">
             <objects>
-                <tabBarController id="Bfa-ST-pEB" customClass="TabBarController" customModule="Papa_s_50th" customModuleProvider="target" sceneMemberID="viewController">
+                <tabBarController id="Bfa-ST-pEB" customClass="TabViewController" customModule="Papa_s_50th" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" backgroundImage="Background" itemPositioning="centered" itemSpacing="45" itemWidth="45" id="qqd-It-WLk">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
